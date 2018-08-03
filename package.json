@@ -1,0 +1,27 @@
+{
+  "name": "image-processor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-help-doc": "^1.1.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-responsive": "^2.11.0",
+    "gulp-shell": "^0.6.5",
+    "gulp-util": "^3.0.8",
+    "imagemin-guetzli": "^1.0.0",
+    "imagemin-pngquant": "^6.0.0",
+    "imagemin-svgo": "^7.0.0",
+    "imagemin-webp": "^4.1.0",
+    "require-dir": "^1.0.0"
+  }
+}

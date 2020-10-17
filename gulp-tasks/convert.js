@@ -17,5 +17,6 @@ gulp.task('convert', gulp.series(
     'clean',
     'convert:retina',
     'convert:webp',
+    'convert:avif',
     gulp.parallel('optimize:guetzli', 'optimize:png', 'optimize:svg'),
 ));
